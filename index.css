@@ -1147,6 +1147,20 @@ display: flex;
 
 
 @media (max-width: 487px) {
+
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 12%;
+    background: black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+    }
   .navbars a{
   font-size: 20px;
   color: white;
@@ -1213,6 +1227,7 @@ display: flex;
   background-position: center;
   height: 1230px;
   opacity: 90;
+  width: 140%;
   }
   
   h1{
@@ -1273,7 +1288,7 @@ display: flex;
   }
   
   .boxs{
-  margin: 100px 50px;
+  margin: 100px 14px;
   display: grid;
   grid-template-columns: repeat(1, 150px);
   gap: 20px;
@@ -1331,7 +1346,7 @@ display: flex;
   .poy img{
   width: 370px;
   height: 370px;
-  margin-left: 90px;
+  margin-left: 30px;
   animation: mustp 3s ease-in-out infinite;
   }
   .alls{
@@ -1394,8 +1409,8 @@ display: flex;
   color: black;
   }
   .toy p{
-  padding-left: 200px;
-  padding-top: 20px;
+  padding-left: 150px;
+  padding-top: 16px;
   font-size: 40px;
   line-height: 35px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -1404,7 +1419,7 @@ display: flex;
   .toy .pip{
   padding-left: 60px;
   padding-top: 50px;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 45px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: black;
@@ -1428,10 +1443,10 @@ display: flex;
   margin-top: 400px;
   }
   .tasty{
-  width: 470px;
+  width: 410px;
   height: 230px;
   border: 2px solid black;
-  margin-left: 14px;
+  margin-left: 2px;
   background-color: black;
   border-radius: 10px;
   display: flex;
@@ -1495,7 +1510,7 @@ display: flex;
   .menu .past{
   display: flex;
   padding: 10px 10%;
-  gap: 30px;
+  gap: 20px;
   }
   
   .past li{
@@ -1508,8 +1523,9 @@ display: flex;
   }
   .alll{
   display: grid;
-  grid-template-columns: repeat(1, 550px);
+  grid-template-columns: repeat(1, 500px);
   gap: 2px;
+  margin: 0px -30px;
   }
   .tests{
   padding-left: 50px;
@@ -1535,7 +1551,7 @@ display: flex;
 .all-servic{
   display: grid;
   grid-template-columns: repeat(1, 400px);
-  margin: 10px 30px;
+  margin: 10px 10px;
   gap: 30px;
   }
 
@@ -1558,6 +1574,7 @@ display: block;
 }
 .contact{
 height: 1200px;
+width: 150%;
 }
 
 .con-two{
@@ -1582,5 +1599,8 @@ padding: 50px 30px;
   border: 1px solid black;
   padding: 180px 30px;
   }  
-  
+  .bx-menu{
+    color: yellow;
+    margin: 0px -170px;
+  }
 }
