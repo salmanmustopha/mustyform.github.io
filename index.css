@@ -56,7 +56,9 @@ border-bottom: 3px solid orangered;
 }
 
 
-
+body{
+  overflow-x: hidden;
+}
 
 
 
