@@ -1290,14 +1290,14 @@ display: flex;
   }
   
   .boxs{
-  margin: 100px 20px;
+  margin: 100px 30px;
   display: grid;
   grid-template-columns: repeat(1, 150px);
   gap: 20px;
   }
   .chefs{
   transition: 0.5s ease;
-  width: 300px;
+  width: 330px;
   height: 320px;
   border: 1px solid none;
   border-radius: 7px;
