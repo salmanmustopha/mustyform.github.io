@@ -1346,8 +1346,8 @@ display: flex;
   position: relative;
   }
   .poy img{
-  width: 370px;
-  height: 370px;
+  width: 290px;
+  height: 290px;
   margin-left: 30px;
   animation: mustp 3s ease-in-out infinite;
   }
@@ -1379,7 +1379,7 @@ display: flex;
   margin-left: 150px;
   }
   .toy h4{
-  padding-left: 40px;
+  padding-left: 30px;
   padding-top: 200px;
   font-size: 25px;
   line-height: 35px;
@@ -1446,7 +1446,7 @@ display: flex;
   margin-left: 2px;
   }
   .tasty{
-  width: 460px;
+  width: 360px;
   height: 230px;
   border: 2px solid black;
   margin-left: 2px;
@@ -1455,8 +1455,8 @@ display: flex;
   display: flex;
   }
   .tasty .cir{
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   border: 6px solid yellow;
   border-radius: 50%;
   margin-top: 15px;
@@ -1464,8 +1464,8 @@ display: flex;
   }
   
   .cir img{
-  width: 167.8px;
-  height: 167.8px;
+  width: 107.8px;
+  height: 107.8px;
   border-radius: 50%;
   transition: 0.9s ease;
   cursor: pointer;
@@ -1474,7 +1474,7 @@ display: flex;
   color: #5DA9E9;
   font-size: 25px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding-left: 25px;
+  padding-left: 20px;
   padding-top: 30px;
   }
   .tasty h6{
@@ -1483,14 +1483,14 @@ display: flex;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: absolute;
   padding-top: 80px;
-  padding-left: 250px;
+  padding-left: 180px;
   }
   .tasty button{
   position: absolute;
   width: 180px;
   height: 50px;
   border: none;
-  margin-left: 220px;
+  margin-left: 120px;
   margin-top: 150px;
   font-size: 23px;
   border-radius: 105px;
@@ -1515,7 +1515,10 @@ display: flex;
   padding: 10px 14%;
   gap: 20px;
   }
-  
+  .about{
+    width: 460px;
+
+  }
   .past li{
   list-style: none;
   color: black;
@@ -1553,8 +1556,8 @@ display: flex;
  
 .all-servic{
   display: grid;
-  grid-template-columns: repeat(1, 400px);
-  margin: 10px 30px;
+  grid-template-columns: repeat(1, 300px);
+  margin: 10px 2px;
   gap: 30px;
   }
 
