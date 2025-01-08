@@ -221,6 +221,7 @@ transform: rotate(360deg);
 }
 
 }
+
 .ii button{
 width: 250px;
 height: 60px;
@@ -321,6 +322,7 @@ margin-top: 400px;
 50%{
 margin-top: 400px;
 }
+ 
 }
 .bx-menu{
 width: 30px;
@@ -748,6 +750,8 @@ background-size:cover;
 background-position: center;
 height: 1230px;
 opacity: 90;
+width: 143%;
+
 }
 
 h1{
@@ -853,6 +857,7 @@ line-height: 30px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 }
+/* }
 @media(max-width:1200px) {
 .navbar{
 display: none;
@@ -1609,4 +1614,4 @@ padding: 50px 30px;
     color: white;
     margin: 0px -30px;
   }
-}
+} */
